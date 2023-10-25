@@ -1,0 +1,25 @@
+:host-context(body){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    min-height: 100vh;
+    text-align: center;
+}
+
+.form-signin{
+    width: 400px !important;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    color: var(--bs-body-color);
+    margin-bottom: 0.rem;
+}
+
+.separator h6{
+    
+}
