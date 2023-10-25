@@ -17,7 +17,7 @@ public class AppUser
     [Required]
     [StringLength(20, MinimumLength = 3)]
     public string UserName { get; set; }
-
+    public string Username { get; internal set; }
     [Required]
     [StringLength(20, MinimumLength = 3)]
     public string Password { get; set; }
